@@ -1,0 +1,108 @@
+.main_banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 70px 0px 120px 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main_banner:after {
+    content: '';
+    background-image: url("../public/images/baner-dec-left.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 193px;
+    height: 467px;
+  }
+  
+  .main_banner:before {
+    content: '';
+    background-image: url("../public/images/baner-dec-right.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 98px;
+    height: 290px;
+  }
+  
+  .main_banner .left_content {
+    margin-right: 45px;
+  }
+  
+  .h6 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fe3f40;
+    margin-bottom: 15px;
+  }
+  
+  .h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #2a2a2a;
+    line-height: 72px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .main_banner .left_content h2 em {
+    color: #03a4ed;
+    font-style: normal;
+  }
+  
+  .h2 span {
+    color: #fe3f40;
+  }
+  
+  .p {
+    margin: 20px 0px;
+  }
+  
+   .left_content form {
+    margin-top: 30px;
+    width: 470px;
+    height: 66px;
+    position: relative;
+  }
+  
+  .left_content button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #fe3f40;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    outline: none;
+    border: none;
+  }
+  
+  .main_banner .left_content form input {
+    width: 470px;
+    height: 66px;
+    background-color: rgb(182, 135, 164);
+    border-radius: 33px;
+    border: none;
+    outline: none;
+    padding: 0px 25px;
+    color: #fff;
+    letter-spacing: 0.25px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  .main_banner .left_content form input::placeholder {
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500
+}
